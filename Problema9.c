@@ -9,11 +9,9 @@ int main()
 {
     int N, i;
 
-    // Leer el número
     printf("Ingrese un número entero para generar su tabla de multiplicar: ");
     scanf("%d", &N);
 
-    // Generar la tabla desde 1 hasta 10
     printf("Tabla de multiplicar del %d:\n", N);
     for (i = 1; i <= 10; i++) 
     {
