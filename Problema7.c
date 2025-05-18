@@ -14,30 +14,25 @@ int main()
     int diasEstancia;
     float precioNormal, precioFinal;
 
-    // Entrada de datos
     printf("Ingrese la distancia de ida en km: ");
     scanf("%f", &distanciaIda);
 
     printf("Ingrese el número de días de estancia: ");
     scanf("%d", &diasEstancia);
 
-    // Calcular distancia total (ida y vuelta)
     distanciaTotal = distanciaIda * 2;
 
-    // Calcular precio sin descuento
     precioNormal = distanciaTotal * precioPorKm;
 
-    // Verificar si se aplica el descuento
     if (diasEstancia > 7 && distanciaTotal > 800) 
     {
-        precioFinal = precioNormal * 0.70; // 30% de descuento
+        precioFinal = precioNormal * 0.70; 
     } 
     else 
     {
         precioFinal = precioNormal;
     }
 
-    // Mostrar el precio final
     printf("El precio final del ticket es: %.2f\n", precioFinal);
 
     return 0;
