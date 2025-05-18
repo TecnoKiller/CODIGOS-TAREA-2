@@ -11,20 +11,16 @@ int main()
 {
     float montoCompra, descuento = 0.0, totalPagar;
 
-    // Entrada de datos
     printf("Ingrese el monto de la compra: ");
     scanf("%f", &montoCompra);
 
-    // Verificación y cálculo del descuento
     if (montoCompra > 2500) 
     {
-        descuento = montoCompra * 0.08; // 8% de descuento
+        descuento = montoCompra * 0.08; 
     }
 
-    // Cálculo del total a pagar
     totalPagar = montoCompra - descuento;
 
-    // Salida
     printf("Descuento aplicado: %.2f\n", descuento);
     printf("Total a pagar: %.2f\n", totalPagar);
 
