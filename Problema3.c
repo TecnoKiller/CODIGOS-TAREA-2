@@ -11,14 +11,11 @@ int main()
     float dolares, pesos;
     const float TIPO_CAMBIO = 11.96;
 
-    // Entrada de datos
     printf("Ingrese la cantidad en dólares: ");
     scanf("%f", &dolares);
 
-    // Conversión
     pesos = dolares * TIPO_CAMBIO;
 
-    // Salida
     printf("Equivalente en pesos: %.2f\n", pesos);
 
     return 0;
