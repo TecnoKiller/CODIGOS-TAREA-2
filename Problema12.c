@@ -8,7 +8,7 @@ primeros numeros naturales.
 int main() 
 {
     int N;
-    unsigned long long producto = 1; // Usamos unsigned long long para manejar números grandes
+    unsigned long long producto = 1; 
 
     printf("Ingrese un numero natural N: ");
     scanf("%d", &N);
