@@ -8,14 +8,12 @@ int main()
 {
     int a, b;
 
-    // Entrada de datos
     printf("Ingrese el primer número entero (A): ");
     scanf("%d", &a);
 
     printf("Ingrese el segundo número entero (B): ");
     scanf("%d", &b);
 
-    // Verificar si uno es divisor del otro
     if (b != 0 && a % b == 0) 
     {
         printf("B es divisor de A.\n");
